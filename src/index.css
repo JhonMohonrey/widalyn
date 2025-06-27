@@ -1,0 +1,13 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+@theme {
+  --breakpoint-md: 768px; /* 900px */
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@import "tailwindcss";
