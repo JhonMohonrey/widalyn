@@ -23,12 +23,14 @@ function App(props) {
   return (
     <div className="scroll-smooth">
       <Header />
-      <MainContainer />
+      <MainContainer id="main" />
       {warning()}
       {warning()}
       {warning()}
       {warning()}
       <Contact id="contact" />
+      {warning()}
+      {warning()}
       {warning()}
     </div>
   );
