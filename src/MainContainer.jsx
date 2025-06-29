@@ -54,7 +54,7 @@ function MainContainer(props) {
                                 {mainImg("h-[300px]")}
                             </div>
                             <p className=' font-semibold text-[clamp(1.5rem,3vw,25px)] md:text-start text-center text-[#393939]' style={{ textShadow: '2px 2px 3px #39393949' }}>
-                                Newest Original Track📀
+                                Newest Original Track 📀
                             </p>
 
                             <p className='
@@ -90,7 +90,7 @@ function MainContainer(props) {
                             target="_blank"
                             rel="noopener noreferrer"
                             >
-                                Listen on Spotify🎧
+                                Listen on Spotify 🎧
                             </a>
                             <div className='flex gap-2'>
                                 {socialMediaLinks(spotifyLogo)}
