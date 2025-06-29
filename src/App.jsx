@@ -3,6 +3,7 @@ import Header from './Header';
 import tools from './assets/298718717.png'
 import MainContainer from './MainContainer';
 import Contact from './Contact';
+import { Analytics } from '@vercel/analytics/react';
 
 function App(props) {
   const warning = () => {
@@ -32,6 +33,7 @@ function App(props) {
       {warning()}
       {warning()}
       {warning()}
+      <Analytics />
     </div>
   );
 }
